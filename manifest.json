@@ -4,6 +4,7 @@
     "version": "1.0",
     "description": "Analyze webpage difficulty based on Duolingo vocabulary.",
     "permissions": ["activeTab", "storage"],
+    "options_page": "options/options.html",
     "background": { "scripts": ["background.js"] },
     "content_scripts": [
       {
