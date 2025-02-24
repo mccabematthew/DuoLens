@@ -1,1 +1,1 @@
-// Extract webpage text
+// Extract webpage text and uses difficulty-grade algo (fun part)
