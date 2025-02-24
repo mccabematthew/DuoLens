@@ -1,0 +1,1 @@
+// Provides users options for grade weights (changes the background.js weights)
