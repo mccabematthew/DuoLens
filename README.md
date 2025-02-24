@@ -75,8 +75,8 @@ DuoLens calculates a score using several factors that you can tweak:
 
 ## 🗂️ **Project Structure**
 
-
-```DuoLens/
+```
+DuoLens/
 │── manifest.json      # Defines extension settings & permissions
 │── LICENSE            # Open-source license info
 │── README.md          # Project documentation
