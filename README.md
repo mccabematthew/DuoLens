@@ -1,8 +1,10 @@
-# DuoLens
+# 🦉 DuoLens
 
-**DuoLens** is your ultimate language-learning companion, helping you tackle foreign-language webpages by grading their readability based on your Duolingo progress. With DuoLens, you can easily assess if a webpage is at the right level for you, making real-world practice more fun and rewarding!
+**DuoLens** is your ultimate language-learning companion, helping you tackle foreign-language webpages by grading their readability based on your Duolingo progress. With DuoLens, you can easily assess if a webpage is at the right level for you, making real-world practice more fun and rewarding! [📑 DuoLens Wiki](https://github.com/mccabematthew/DuoLens/wiki)
 
 ---
+
+
 
 ## 🚀 **How It Works**
 
