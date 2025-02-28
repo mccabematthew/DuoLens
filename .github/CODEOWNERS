@@ -1,0 +1,14 @@
+# CODEOWNERS file
+# Default owners for everything
+* @mccabematthew
+
+# Config file owners
+manifest.json @mccabematthew
+config.json @mccabematthew
+
+# Backend code
+scripts/* @mccabematthew
+
+# Frontend code
+ui/* @Asadour5
+options/* @Asadour5

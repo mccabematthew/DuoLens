@@ -1,0 +1,12 @@
+echo "# [TYPE]: Short description (50 chars)
+
+# More detailed description if needed (72 chars per line)
+
+# TYPE can be:
+# - feat (new feature)
+# - fix (bug fix)
+# - docs (documentation changes)
+# - style (formatting, etc; no code change)
+# - refactor (refactoring code)
+# - test (adding missing tests)
+# - chore (maintenance tasks)" > .gitmessage
