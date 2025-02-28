@@ -85,6 +85,14 @@ DuoLens/
 │── .gitattributes     # Handles Git settings (e.g., line endings)
 │── config.json        # Default settings for difficulty weights
 │
+├── .github/                      # GitHub files for git and gh templates
+│   ├── ISSUE_TEMPLATE/           # Issues templates
+│      ├── add_to_wiki
+│      ├── bug_report.md
+│      ├── feature_request.md 
+│   ├── .gitmessage                  # Local git commit template
+│   ├── CODEOWNERS                   # Defines code ownerships
+|
 ├── scripts/           # JavaScript logic for the extension
 │   ├── background.js  # Handles API calls & storage
 │   ├── content.js     # Extracts & processes webpage text
