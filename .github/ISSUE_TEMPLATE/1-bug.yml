@@ -1,0 +1,52 @@
+name: Bug Report
+description: Report a bug in the project
+title: "[Bug]: "
+labels: [bug]
+assignees: [SampleAssignee]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of the bug.
+      placeholder: Describe the issue here...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps to reproduce the issue.
+      placeholder: |
+        1. Step 1
+        2. Step 2
+        3. Step 3
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe the expected behavior...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Describe what actually happened...
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Screenshots
+      description: Provide a link to any relevant screenshots.
+      placeholder: Paste a screenshot URL or attach images in the issue.
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Any other details we should know?
+      placeholder: Add extra context here...

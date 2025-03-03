@@ -1,0 +1,61 @@
+name: Add to Wiki
+description: Suggest a new topic or section for the Wiki
+title: "[Wiki]: "
+labels: [documentation, good first issue]
+assignees: [SampleAssignee]
+body:
+  - type: input
+    attributes:
+      label: Topic/Section Name
+      description: What is the name of the topic or section you want to add to the Wiki?
+      placeholder: Enter the topic name...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Briefly describe what this section will cover or explain.
+      placeholder: Provide a short summary...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Why is this important?
+      description: Why do you think this information should be added to the Wiki? What will it help others understand or accomplish?
+      placeholder: Explain the importance of this topic...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Detailed Information
+      description: Provide any detailed information you want to include in the Wiki. You can include code snippets, examples, diagrams, etc.
+      placeholder: Add detailed content here...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Relevant Resources
+      description: If you have links to external resources, articles, or documentation that should be included or referenced, add them here.
+      placeholder: Add relevant links or references...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Notes or Special Instructions
+      description: Any additional notes or instructions to consider when adding this content to the Wiki.
+      placeholder: Include any extra instructions...
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Location in Wiki
+      description: Where should this information be placed in the Wiki (e.g., "Getting Started" section, "API documentation", etc.)?
+      placeholder: Specify the Wiki location...
+    validations:
+      required: true
